@@ -1,6 +1,18 @@
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* 800w 600h for the brush to scale correctly - find a way to change so it will be more responsive and the width of the tool bar (or close)*/
 .canvas {
-  background-color: #fff; /* White canvas */
-  width: 100%; /* Take up full width of container */
-  height: 100%; /* Take up full height of container */
-  display: block; /* Display as block element */
+  background-color: #fff; 
+  width: 1000px; 
+  height: 800px; 
+}
+
+.brush-cursor {
+  cursor: url('/public/brushCursor.png'), auto;
 }
