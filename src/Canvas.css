@@ -1,0 +1,6 @@
+.canvas {
+  background-color: #fff; /* White canvas */
+  width: 100%; /* Take up full width of container */
+  height: 100%; /* Take up full height of container */
+  display: block; /* Display as block element */
+}

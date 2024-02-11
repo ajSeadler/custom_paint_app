@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.appBar {
+  background-color: #333 !important; /* Dark background */
+}
+
+.iconButton.salmonRed {
+  color: #ff6f61 in !important; /* Salmon Red */
+}
+
+.iconButton.subtleGreen {
+  color: #6fbf73; /* Subtle Green */
+}
+
+.iconButton.subtleYellow {
+  color: #ffef99; /* Subtle Yellow */
+}
+
+.iconButton.subtlePurple {
+  color: #ae99ff; /* Subtle Purple */
+}
+
+
+
